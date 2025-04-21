@@ -1,6 +1,6 @@
 FROM node:18
 WORKDIR /data
 COPY package*.json ./
-COPY ..
+COPY . .
 EXPOSE 80
-CMD ("npm" , "start")
+CMD ("npm", "start")
